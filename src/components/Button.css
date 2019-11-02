@@ -4,14 +4,16 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    font-weight: lighter;
     font-size: 1.4em;
-    background-color: #e0e1e6;
-    color: #888;
-    outline: 1px solid #888;
+    background-color: #d1274b;
+    color: #fff4e4;
+    border-radius: 3px solid #000;
+    cursor: pointer;
+    font-family: 'Baloo', cursive;
 }
 
 .operator {
-    background-color: #fe9241;
-    color: #fff;
+    background-color: #f88020;
+    color: #fff4e4;
+    font-family: 'Baloo', cursive;
 }

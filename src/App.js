@@ -17,6 +17,7 @@ class App extends Component {
         };
     }
 
+
     addToInput = val => {
         this.setState({ input: this.state.input + val });
     };
@@ -42,12 +43,12 @@ class App extends Component {
     add = () => {
         this.state.previousNumber = this.state.input;
         this.setState({ input: "" });
-        this.state.operator = "plus";
+        this.state.operator = "add";
     };
 
     evaluate = () => {
         this.state.currentNumber =  this.state.input;
-        if (this.state.operator == "plus") {
+        if (this.state.operator == "add") {
             this.setState({
                 input: parseInt(this.state.previousNumber) +
                 parseInt(this.state.currentNumber)
